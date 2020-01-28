@@ -31,7 +31,7 @@ function moveDodgerRight() {
  let limitRight=bl.offsetWidth - dodger.offsetWidth;
  console.log(limitRight);
  //if ( left < limitRight) { this is the code which works but learn did not accept
-  if ( left > limitRight) {
+  if ( left >0) {
     dodger.style.left = `${left + 1}px`;
   }
 }
